@@ -41,3 +41,15 @@ console.log(typeof year); // undefined
 year = 1991;
 console.log(typeof year); // number
 console.log(typeof null); // object , which is js bug
+
+////////////////////////////////////
+// let, const and var
+let age = 30;
+age = 31;
+const birthYear = 1991; // cannot be changed
+// birthYear = 1990;
+// const job;
+var job = 'programmer'; // calling the variable old way.
+job = 'teacher'
+lastName = 'Schmedtmann'; // it doesnt create a scope rather create global properties.
+console.log(lastName);
