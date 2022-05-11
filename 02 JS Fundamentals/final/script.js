@@ -359,4 +359,22 @@ if (day === 'monday') {
 }
 
 
+
+////////////////////////////////////
+// Statements and Expressions
+
+// Expressions is a peace of code which produce a value.
+// Statements doesnt produce value, rather doing some action. its a full sentence end with semicolon.
+
+// template literals only accept expression.
+
+3 + 4
+1991
+true && false && !false
+if (23 > 10) {
+  const str = '23 is bigger';
+}
+const me = 'Jonas';
+console.log(`I'm ${2037 - 1991} years old ${me}`);
+
 */
